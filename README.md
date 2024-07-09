@@ -1,5 +1,11 @@
 ## Hi there 👋
 
+I'm a student spezialising in the field of Cybersecurity. I am interested in secure coding and Cryptography and also general IT. Favourite coding langauges are Python 🐍 and Bash
+
+## Coding Stats
+[![GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=Gepardgame&layout=donut&theme=dracula&hide_border=true&size_weight=0.5&count_weight=0.5)](https://github.com/anuraghazra/github-readme-stats)
+
+
 <!--
 **Gepardgame/Gepardgame** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
