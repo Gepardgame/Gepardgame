@@ -10,16 +10,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
-    - name: Push changes
+    - name: Adds Email seperatly
       run: git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-    - name: Fetch TryHackMe Badge
+    - name: Fetch TryHackMe Badge  
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       uses: DhanushNehru/tryhackme-badge-action-workflow@v1.0
       with:
         image_path: './assets/thm_badge.png'
         username: 'Gepardgame'
         user_id: '567084'
-        committer_username: 'Gepardgame'
+        committer_username: 'github-actions[bot]'
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
