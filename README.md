@@ -4,6 +4,9 @@ I'm a student spezialising in the field of Cybersecurity. I am interested in sec
 
 ## Coding Stats
 [![GitHub Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=Gepardgame&layout=donut&theme=dracula&hide_border=true&size_weight=0.5&count_weight=0.5)](https://github.com/anuraghazra/github-readme-stats)
+## Hacking Stats
+
+[![tryhackme stats](https://raw.githubusercontent.com/Gepardgame/Gepardgame/master/assets/thm_propic.png)](https://tryhackme.com/r/p/Gepardgame)
 
 
 <!--
