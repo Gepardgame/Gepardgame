@@ -13,7 +13,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Fetch TryHackMe Badge
-      uses: Gepardgame/tryhackme-badge-action-workflow/.github/workflows/tryhackme-badge-action-workflow@v0.9
+      uses: Gepardgame/tryhackme-badge-action-workflow@v0.9
       with:
         image_path: './assets/thm_badge.png'
         username: 'Gepardgame'
