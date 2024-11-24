@@ -9,13 +9,17 @@ jobs:
   tryhackme-badge-update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
-      - name: Fetch TryHackMe Badge
-        uses: DhanushNehru/tryhackme-badge-action-workflow@v1.0
-        with:
-          image_path: './assets/thm_badge.png'
-          username: 'Gepardgame'
-          user_id: '567084'
-          committer_username: 'Gepardgame'
+    - name: Push changes
+      run: git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+    - name: Fetch TryHackMe Badge
+      uses: DhanushNehru/tryhackme-badge-action-workflow@v1.0
+      with:
+        image_path: './assets/thm_badge.png'
+        username: 'Gepardgame'
+        user_id: '567084'
+        committer_username: 'Gepardgame'
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
