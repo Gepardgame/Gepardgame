@@ -12,8 +12,8 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Adds Email seperatly
-      run: git config --global user.email "github-actions[bot]@users.noreply.github.com"
+    # - name: Adds Email seperatly
+    #   run: git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
     - name: Fetch TryHackMe Badge
       uses: DhanushNehru/tryhackme-badge-action-workflow@v1.0
