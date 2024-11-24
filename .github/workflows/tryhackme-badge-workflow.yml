@@ -16,6 +16,6 @@ jobs:
         uses: DhanushNehru/tryhackme-badge-action-workflow@v1.0
         with:
           image_path: './assets/thm_badge.png'
-          username: "Gepardgame"
+          username: 'Gepardgame'
           user_id: '567084'
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          committer_username: 'Gepardgame'
